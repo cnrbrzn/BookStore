@@ -20,10 +20,10 @@ namespace WebApi.Controllers
     [Route("[controller]s")]
     public class BookController : ControllerBase
     {
-        private readonly BookStoreDbContext _context;
+        private readonly IBookStoreDbContext _context;
         private readonly IMapper _mapper;
 
-        public BookController(BookStoreDbContext context, IMapper mapper)
+        public BookController(IBookStoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
@@ -72,7 +72,7 @@ namespace WebApi.Controllers
             BookDetailViewModel result;
             GetBookDetailQuery query = new GetBookDetailQuery(_context, _mapper);
             query.BookId = id;
-            GetBookDetailValidator validator = new GetBookDetailValidator();
+            GetBookDetailQueryValidator validator = new GetBookDetailQueryValidator();
             validator.ValidateAndThrow(query);
             result = query.Handle();
             return Ok(result);
