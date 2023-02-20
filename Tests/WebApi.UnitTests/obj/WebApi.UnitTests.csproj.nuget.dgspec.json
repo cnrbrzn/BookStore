@@ -1,33 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj": {}
+    "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj": {
+    "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+        "projectUniqueName": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
         "projectName": "WebApi.UnitTests",
-        "projectPath": "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\obj\\",
+        "projectPath": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\borazanc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\Tests\\WebApi.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\borazanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {
-                "projectPath": "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj"
+              "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {
+                "projectPath": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj"
               }
             }
           }
@@ -94,26 +99,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {
+    "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\caner\\source\\repos\\Pratikler\\BookStore\\WebApi\\obj\\",
+        "projectPath": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\borazanc\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\borazanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -179,7 +189,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

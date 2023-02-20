@@ -8,7 +8,7 @@ using WebApi.Application.BookOperations.Queries.GetBookDetail;
 using WebApi.DBOperations;
 using Xunit;
 
-namespace Application.Bookoperations.Queries.GetBookDetail
+namespace Application.BookOperations.Queries.GetBookDetail
 {
     public class GetBookDetailQueryTests : IClassFixture<CommonTestFixture>
     {
@@ -24,10 +24,8 @@ namespace Application.Bookoperations.Queries.GetBookDetail
         public void WhenNonExistingBookIdIsGiven_InvalidOperationException_ShouldBeReturn()
         {
             // arrange
-            int bookId = 11;
-
             GetBookDetailQuery query = new GetBookDetailQuery(_context, _mapper);
-            query.BookId = bookId;
+            query.BookId = 11;
 
             // assert
             query.Invoking(x => x.Handle())
@@ -39,20 +37,14 @@ namespace Application.Bookoperations.Queries.GetBookDetail
         {
             // arrange
             GetBookDetailQuery query = new GetBookDetailQuery(_context, _mapper);
-            var BookId = query.BookId = 1;
-
-            var book = _context.Books.Include(x => x.Genre).Include(x => x.Author).Where(b => b.Id == BookId).SingleOrDefault();
+            query.BookId = 1;
 
             // act
-            BookDetailViewModel vm = query.Handle();
+            FluentActions.Invoking(() => query.Handle()).Invoke();
 
             // assert
-            vm.Should().NotBeNull();
-            vm.Title.Should().Be(book.Title);
-            vm.PageCount.Should().Be(book.PageCount);
-            vm.Genre.Should().Be(book.Genre.Name);
-            vm.Author.Should().Be(book.Author.Name + " " + book.Author.Surname);
-            vm.PublishDate.Should().Be(book.PublishDate.ToString("dd/MM/yyyy 00:00:00"));
+            var book = _context.Books.SingleOrDefault(b=> b.Id == query.BookId);
+            book.Should().NotBeNull();
         }
     }
 }

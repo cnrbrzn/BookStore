@@ -35,7 +35,8 @@ namespace Application.BookOperations.Commands.UpdateBook
         public void WhenValidInputsAreGiven_Book_ShouldBeUpdated()
         {
             // arrange
-            UpdateBookCommand command = new UpdateBookCommand(_context);command.BookId = 1;
+            UpdateBookCommand command = new UpdateBookCommand(_context);
+            command.BookId = 1;
 
             UpdateBookModel model = new UpdateBookModel { Title = "Updated Title", GenreId = 2, AuthorId = 2 };
             command.Model = model;

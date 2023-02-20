@@ -9,7 +9,7 @@ using WebApi.Entities;
 using Xunit;
 using static WebApi.Application.BookOperations.Commands.CreateBook.CreateBookCommand;
 
-namespace Application.Bookoperations.Commands.CreateBook
+namespace Application.BookOperations.Commands.CreateBook
 {
     public class CreateBookCommandTests: IClassFixture<CommonTestFixture>
     {
@@ -38,7 +38,7 @@ namespace Application.Bookoperations.Commands.CreateBook
                 .Should().Throw<InvalidOperationException>().And.Message.Should().Be("Kitap zaten mevcut.");
         }
         [Fact]
-        public void WhenValidaInputsAreGiven_Book_ShouldBeCreated()
+        public void WhenValidInputsAreGiven_Book_ShouldBeCreated()
         {
             //arrange
             CreateBookCommand command = new CreateBookCommand(_context,_mapper);

@@ -4,7 +4,7 @@ using TestSetup;
 using WebApi.Application.BookOperations.Queries.GetBookDetail;
 using Xunit;
 
-namespace Application.Bookoperations.Queries.GetBookDetail
+namespace Application.BookOperations.Queries.GetBookDetail
 {
     public class GetBookDetailQueryValidatorTests : IClassFixture<CommonTestFixture>
     {

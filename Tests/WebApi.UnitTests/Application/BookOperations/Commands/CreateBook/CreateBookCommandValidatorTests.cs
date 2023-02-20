@@ -5,7 +5,7 @@ using WebApi.Application.BookOperations.Commands.CreateBook;
 using Xunit;
 using static WebApi.Application.BookOperations.Commands.CreateBook.CreateBookCommand;
 
-namespace Application.Bookoperations.Commands.CreateBook
+namespace Application.BookOperations.Commands.CreateBook
 {
     public class CreateBookCommandValidatorTests: IClassFixture<CommonTestFixture>
     {

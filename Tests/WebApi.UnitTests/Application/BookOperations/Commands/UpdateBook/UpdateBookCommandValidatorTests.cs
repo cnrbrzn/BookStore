@@ -5,7 +5,7 @@ using WebApi.Application.BookOperations.Commands.UpdateBook;
 using Xunit;
 using static WebApi.Application.BookOperations.Commands.UpdateBook.UpdateBookCommand;
 
-namespace Application.Bookoperations.Commands.UpdateBook
+namespace Application.BookOperations.Commands.UpdateBook
 {
     public class UpdateBookCommandValidatorTests : IClassFixture<CommonTestFixture>
     {
