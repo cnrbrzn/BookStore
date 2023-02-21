@@ -1009,11 +1009,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
+      "projectPath": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\borazanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\obj\\",
+      "outputPath": "c:\\Users\\borazanc\\source\\repos\\Pratikler\\BookStore\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

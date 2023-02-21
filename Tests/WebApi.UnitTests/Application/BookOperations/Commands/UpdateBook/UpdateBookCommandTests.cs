@@ -44,7 +44,7 @@ namespace Application.BookOperations.Commands.UpdateBook
             // act
             FluentActions.Invoking(() => command.Handle()).Invoke();
             // assert
-            var updatedBook = _context.Books.SingleOrDefault(b => b.Id == 1);
+            var updatedBook = _context.Books.SingleOrDefault(b => b.Id == command.BookId);
             updatedBook.Should().NotBeNull();
             updatedBook.Title.Should().Be(model.Title);
             updatedBook.GenreId.Should().Be(model.GenreId);
