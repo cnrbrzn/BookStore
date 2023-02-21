@@ -74,3 +74,10 @@ C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\obj\Debug\net5.0\WebAp
 C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\obj\Debug\net5.0\ref\WebApi.dll
 C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\borazanc\source\repos\Pratikler\BookStore\WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
