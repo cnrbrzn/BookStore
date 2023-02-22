@@ -13,9 +13,11 @@ using WebApi.Application.AuthorOperations.Commands.UpdateAuthor;
 using static WebApi.Application.AuthorOperations.Commands.CreateAuthor.CreateAuthorCommand;
 using static WebApi.Application.AuthorOperations.Commands.UpdateAuthor.UpdateAuthorCommand;
 using WebApi.Application.AuthorOperations.Commands.DeleteAuthor;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApi.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]s")]
     public class AuthorController : ControllerBase

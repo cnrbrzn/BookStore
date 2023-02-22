@@ -252,3 +252,10 @@ C:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\obj\De
 C:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\obj\Debug\net5.0\ref\WebApi.UnitTests.dll
 C:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\obj\Debug\net5.0\WebApi.UnitTests.pdb
 C:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\obj\Debug\net5.0\WebApi.UnitTests.genruntimeconfig.cache
+c:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\borazanc\source\repos\Pratikler\BookStore\Tests\WebApi.UnitTests\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
